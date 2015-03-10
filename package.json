@@ -1,0 +1,26 @@
+{
+  "name": "webfont-loader",
+  "version": "0.0.1",
+  "description": "Webfont loader with ready promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cymen/webfont-loader"
+  },
+  "keywords": [
+    "webfont",
+    "loader",
+    "fontface",
+    "ready",
+    "loaded"
+  ],
+  "author": "Cymen Vig <cymenvig@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cymen/webfont-loader/issues"
+  },
+  "homepage": "https://github.com/cymen/webfont-loader"
+}
