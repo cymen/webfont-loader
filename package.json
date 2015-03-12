@@ -25,6 +25,6 @@
   "homepage": "https://github.com/cymen/webfont-loader",
   "dependencies": {
     "font-face-observer": "0.0.2",
-    "font-face-rule": "0.0.1"
+    "font-face-rule": "0.0.2"
   }
 }
