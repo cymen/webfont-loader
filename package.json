@@ -1,6 +1,6 @@
 {
   "name": "webfont-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Webfont loader with ready promise",
   "main": "index.js",
   "scripts": {
