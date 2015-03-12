@@ -40,10 +40,9 @@ module.exports = function(fontFamily, options) {
 
     return fontFace.loaded;
   } else {
-    var rule = fontFaceRule(fontFamily, options);
-    addRuleToDocument(rule);
+    options['font-weight'] ? options['font-weight'] || 'normal';
 
-    var fontWeight = options['font-weight'] || 'normal';
+    addRuleToDocument(fontFaceRule(fontFamily, options));
 
     return new FontFaceObserver(fontFamily, {weight: fontWeight}).check();
   }
