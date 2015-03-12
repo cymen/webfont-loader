@@ -26,7 +26,7 @@ module.exports = function(fontFamily, options) {
   });
 
   if (!woffSrc) {
-    thow new Error('No WOFF format font detected!');
+    throw new Error('No WOFF format font detected!');
   }
 
   if (window.FontFace) {
