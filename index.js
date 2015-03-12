@@ -1,3 +1,4 @@
+var _ = require('underscore');
 var fontFaceRule = require('font-face-rule');
 var fontObserver = require('font-face-observer');
 var woffRegExp = new RegExp(/\.woff$/i);
