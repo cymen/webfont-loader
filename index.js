@@ -30,7 +30,7 @@ module.exports = function(fontFamily, options) {
   }
 
   if (window.FontFace) {
-    var fontFace = new FontFace(fontFamily, woffSrc);
+    var fontFace = new FontFace(fontFamily, 'url(' + woffSrc + ')');
 
     // document.fonts has a .has method on Chrome but seems niave
     // so just add for now...
