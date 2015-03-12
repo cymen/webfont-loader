@@ -5,3 +5,17 @@ Load webfont using native [FontFace](http://dev.w3.org/csswg/css-font-loading/) 
 Assumptions:
 * have font in WOFF format
 * font src is a HTTP or HTTPS URL
+
+## Example
+
+```javascript
+var webFontLoader = require('webfont-loader');
+
+webFontLoader('My Font Family', {src: ['http://some.cdn.example.com/my_font.woff']}).then(
+  function fontLoaded() {
+    // ...
+  },
+  function fontFailedToLoad() {
+    // ...
+  }
+);
