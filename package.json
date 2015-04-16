@@ -1,6 +1,6 @@
 {
   "name": "teespring-webfont-loader",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Webfont loader with ready promise",
   "main": "index.js",
   "scripts": {

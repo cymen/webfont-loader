@@ -41,7 +41,7 @@ module.exports = function(fontFamily, options) {
 
     return fontFace.loaded;
   } else {
-    var fontWeight = options['font-weight'] ? options['font-weight'] || 'normal';
+    var fontWeight = options['font-weight'] ? options['font-weight'] : 'normal';
 
     addRuleToDocument(fontFaceRule(fontFamily, options));
 
