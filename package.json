@@ -1,5 +1,5 @@
 {
-  "name": "webfont-loader",
+  "name": "teespring-webfont-loader",
   "version": "0.0.8",
   "description": "Webfont loader with ready promise",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cymen/webfont-loader"
+    "url": "https://github.com/TeespringLabs/webfont-loader"
   },
   "keywords": [
     "webfont",
@@ -20,9 +20,9 @@
   "author": "Cymen Vig <cymenvig@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cymen/webfont-loader/issues"
+    "url": "https://github.com/TeespringLabs/webfont-loader/issues"
   },
-  "homepage": "https://github.com/cymen/webfont-loader",
+  "homepage": "https://github.com/TeespringLabs/webfont-loader",
   "dependencies": {
     "font-face-observer": "0.0.2",
     "font-face-rule": "0.0.2",
