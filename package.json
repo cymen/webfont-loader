@@ -1,6 +1,6 @@
 {
   "name": "webfont-loader",
-  "version": "0.0.11",
+  "version": "0.1.0",
   "description": "Use native FontFace with fallback to observer",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/cymen/webfont-loader",
   "dependencies": {
+    "array-find": "0.1.1",
     "font-face-observer": "0.0.2",
-    "font-face-rule": "0.0.2",
-    "underscore": "^1.8.2"
+    "font-face-rule": "0.0.2"
   }
 }
