@@ -45,7 +45,7 @@ function addUsingObserver(fontFamily, woffSrc, options) {
     return 'url(' + src + ')';
   })
 
-  addRuleToDocument(fontFaceRule(fontFamily, options));
+  addRuleToDocument(fontFaceRule(fontFamily, fontFaceOptions));
 
   return new FontFaceObserver(fontFamily, {weight: fontWeight}).check();
 }
