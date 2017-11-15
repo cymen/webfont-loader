@@ -43,7 +43,7 @@ function addUsingObserver(fontFamily, woffSrc, options) {
   // wrap font src options entries into a "url()" declaration
   fontFaceOptions.src = fontFaceOptions.src.map(function(src){
     return 'url(' + src + ')';
-  })
+  });
 
   addRuleToDocument(fontFaceRule(fontFamily, fontFaceOptions));
 
