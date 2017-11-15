@@ -1,6 +1,6 @@
 {
   "name": "webfont-loader",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Use native FontFace with fallback to observer",
   "main": "index.js",
   "scripts": {
