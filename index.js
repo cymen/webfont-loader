@@ -31,7 +31,21 @@ function addUsingFontFace(fontFamily, woffSrc) {
 function addUsingObserver(fontFamily, woffSrc, options) {
   var fontWeight = options['font-weight'] ? options['font-weight'] : 'normal';
 
-  addRuleToDocument(fontFaceRule(fontFamily, options));
+  // clone options object to avoid mutations
+  var fontFaceOptions = {};
+
+  for (option in options) {
+    if (options.hasOwnProperty(option)) {
+      fontFaceOptions[option] = options[option];
+    }
+  }
+
+  // wrap font src options entries into a "url()" declaration
+  fontFaceOptions.src = fontFaceOptions.src.map(function(src){
+    return 'url(' + src + ')';
+  })
+
+  addRuleToDocument(fontFaceRule(fontFamily, fontFaceOptions));
 
   return new FontFaceObserver(fontFamily, {weight: fontWeight}).check();
 }
